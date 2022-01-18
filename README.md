@@ -28,7 +28,7 @@ Tools being used are:
 
 ## VARIABLES
   ### TERRAFORM VARIABLES:
-    ```PUBLIC_KEY_PATH``` : Path to your public ssh key
+```    PUBLIC_KEY_PATH: Path to your public ssh key
     aws_region: AWS region in which you want to create infra
     vpc_cidr: CIDR for VPC
     cidr_pub_1: CIRD for 1st public subnet
@@ -45,7 +45,7 @@ Tools being used are:
     rds_engine: RDS engine type (i.e MySQL, Postgres)
     rds_engine_version: Version of RDS engine
     rds_instance_type: RDS instance type
-    instance_type: EC2 instance type
+    instance_type: EC2 instance type ```
 
   ### ANSIBLE VARIABLES:
     html_path: Root directory of code
