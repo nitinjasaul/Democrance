@@ -4,11 +4,11 @@
 In this project below services have been created -
 1. **AWS VPC**      - In N. Virginia 
 2.  **Subnet** -
-3.  2 Public subnets have been created attached with Internet Gateway.
-4.  1 Private subnet has been created attached with NAT Gateway.
-5.  **Instance**     - 1 t2.micro instance using Debian AMI & NGinx installed (In Private Subnet).
-6.  **LoadBalancer** - 1 Application LoadBalancer created with port 80 & 443 listeners (In Public Subnet).
-7.  **RDS Instance** - 1 RDS Instance which is accessible through Debian Server (No Public Access).
+         2 Public subnets have been created attached with Internet Gateway.
+         1 Private subnet has been created attached with NAT Gateway.
+3.  **Instance**     - 1 t2.micro instance using Debian AMI & NGinx installed (In Private Subnet).
+4.  **LoadBalancer** - 1 Application LoadBalancer created with port 80 & 443 listeners (In Public Subnet).
+5.  **RDS Instance** - 1 RDS Instance which is accessible through Debian Server (No Public Access).
 
 NGinx server is being configured by Ansible and serving html page on self-signed certificate.
 
