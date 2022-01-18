@@ -27,7 +27,7 @@ Tools being used are:
 2. Ansible
 
 ## VARIABLES
-### TERRAFORM VARIABLES
+### TERRAFORM VARIABLES:
     PUBLIC_KEY_PATH: Path to your public ssh key
     aws_region: AWS region in which you want to create infra
     vpc_cidr: CIDR for VPC
