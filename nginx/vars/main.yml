@@ -1,0 +1,13 @@
+---
+
+html_path: "/var/www/html/"
+nginx_site: "/etc/nginx/sites-available"
+nginx_conf: "/etc/nginx/sites-enabled"
+conf_file: "democrance.conf"
+dnsname: "democrance.com"
+sslpath: "/etc/ssl/"
+crtpath: "{{ sslpath }}{{ dnsname }}.crt"
+pempath: "{{ sslpath }}{{ dnsname }}.pem"
+csrpath: "{{ sslpath }}{{ dnsname }}.csr"
+pfxpath: "{{ sslpath }}{{ dnsname }}.pfx"
+private_key_password: "demo"
